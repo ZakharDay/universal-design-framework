@@ -56,16 +56,26 @@ a:hover {
 
 @media screen and (max-width: 818px) {
   body {
+    padding: 0 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
     font-size: 24px;
     line-height: 32px;
-    padding: 0 32px;
+    padding: 0 28px;
   }
 
   .logo {
     width: 210px;
     height: 78px;
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+  }
+
+  .text {
+    margin-bottom: 24px;
   }
 
   .bottom {
