@@ -17,6 +17,12 @@ body {
   margin-bottom: 80px;
 }
 
+.logo-preloader {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 .text {
   max-width: 960px;
   margin-bottom: 40px;
