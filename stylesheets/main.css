@@ -1,0 +1,79 @@
+body {
+  padding: 0 120px;
+  font-family: "SuisseIntl Book", Helvetica, Arial, sans-serif;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.logo {
+  width: 400px;
+  height: 144px;
+  background-image: url("../images/logo-full.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.text {
+  max-width: 960px;
+  margin-bottom: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 40px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #a4a4a4;
+  display: flex;
+  align-items: baseline;
+}
+
+.version-badge {
+  width: max-content;
+  padding: 8px 12px;
+  background-color: #a4a4a4;
+  border-radius: 18px;
+  color: white;
+}
+
+.version-badge + p {
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 818px) {
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 32px;
+  }
+
+  .logo {
+    width: 210px;
+    height: 78px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+
+  .version-badge + p {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+}
